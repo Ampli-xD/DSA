@@ -1,0 +1,60 @@
+AnchorLayoutExp:
+
+<MainWidget>:
+    Button:
+        text:'hello'
+        size: '100dp','100dp'
+        pos: '100dp','100dp'
+        color: 1 , 1 , 0 , 1
+    Label:
+        text:'world'
+        size: '100dp','100dp'
+        pos: '200dp','200dp'
+        color: 1 , 1 , 0 , 1
+
+<AnchorLayoutExp>:
+    # right left center
+    # bottom top center
+    anchor_x: 'left'
+    anchor_y: 'top'
+    Button:
+        text: 'hello'
+        size_hint: 0.2, 0.2
+
+<BoxLayoutExp>:
+    orientation: 'vertical'
+    BoxLayout:
+        orientation: 'vertical'
+        spacing: '2dp'
+
+        Button:
+            text: 'I am B1'
+        Button:
+            text: 'I am B2'
+        Button:
+            text: 'I am B3'
+        Button:
+            text: 'I am B4'
+        Button:
+            text: 'I am B5'
+        Button:
+            text: 'I am B6'
+        Button:
+            text: 'I am B7'
+        Button:
+            text: 'I am B8'
+        Button:
+            text: 'I am B9'
+        Button:
+            text: 'I am B10'        
+    # Button:
+    #     text:'hello'
+    #     #size: '100dp','100dp'
+    #     size_hint: .5, None
+    #     width: .5
+
+    #     pos: '100dp','100dp'
+    #     pos_hint: {'right': 0.80,'center_y': 0.8}
+    #     #x center right 
+    #     #y center top
+    #     color: 1 , 1 , 0 , 1
