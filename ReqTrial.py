@@ -13,10 +13,6 @@ def got_json(req, result):
         if "subject" in i.keys():
             print(i['subject'])
 
-class Data:
-    def __init__(me, result):
-
-
 
 
 
